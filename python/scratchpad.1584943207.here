@@ -1,0 +1,39 @@
+
+1584943207
+
+JSON |
+  X  | us
+  X  | us-daily
+  X  | counties
+  X  | states
+  X  | states-daily
+  -  | states-info
+  -  | urls
+
+cv19traking-dump-datasets.py
+
+=========================
+
+ CSV |
+  X  | us
+  x  | us-daily
+  X  | counties
+  X  | states
+  X  | states-daily
+  -  | states-info
+
+cv19traking-dump-datasets_csv.py
+
+----
+
+States current - /api/states
+States daily 4 pm ET - /api/states/daily
+States info - /api/states/info
+US current - /api/us
+US daily - /api/us/daily
+Counties- /api/counties
+
+Tracker URLs - /api/urls
+
+State Website Screenshots - /api/screenshots
+In the press - /api/press
