@@ -1,0 +1,33 @@
+#!/usr/bin/node
+
+const https = require('https');
+const http = require('http');
+
+online_dataset = 'https://covidtracking.com/api/us';
+
+function xx (resp) {
+    let data = '';
+
+    // A chunk of data has been recieved.
+    resp.on('data', function (chunk) { data += chunk; });
+
+    // The whole response has been received. Print out the result.
+    resp.on('end', function () { 
+        // The next line is not USEFUL
+        // console.log(JSON.parse(data).explanation);
+        console.log(data);
+        theData = JSON.parse(data);
+        console.log(theData.length);
+        theFirstItem = theData[0];
+        console.log(Object.keys(theFirstItem));
+        //
+        // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+        Object.keys(theFirstItem).forEach(x => console.log(x, theFirstItem[x]));
+
+    });
+}
+
+// .on("error", function (err)  { cosole.log("Error: " + err.message); }
+
+
+https.get(online_dataset, xx);
