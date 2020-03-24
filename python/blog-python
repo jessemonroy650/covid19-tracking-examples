@@ -1,0 +1,57 @@
+
+/home/jessem/TBO/quikTake/covid19-auto-stats/git-hub/covid19-tracking-examples/python/blog-python
+
+2020-03-23T04:46:28
+
+++ Story
+Python Examples for covidtracking.com
+
+Covidtracking.com is a live online database that is tracking the raw data from individual states of the Unites States and additional juridications of the United States (such as District of Columbia) with regards to the COVID-19 (also known as #CoronaVirus #WuhanVirus #COVID19 #ChinaVirus #ChineseVirus).
+
+The website states
+https://covidtracking.com/
+<blockquote>The COVID Tracking Project collects information from 50 US states, the District of Columbia, and 5 other US territories to provide the most comprehensive testing data we can collect for the novel coronavirus, SARS-CoV-2. We attempt to include positive and negative results, pending tests, and total people tested for each state or district currently reporting that data.</blockquote>
+
+It should be said the data is imperfect. There are 50 states, each with it's own criteria and systems. In addtion, there is public and private data - and each state has different requirements. For instance, as is documented - "each state has its own set of caveats." Luckily the covidtracking.com team has documented those "caveats" and the can be found here. https://covidtracking.com/data/
+
+<h2>Our Purpose</h2>
+
+Our purpose is to provide basic and rudimentary examples. At this time, we have commited to examples in
+
+* node - Scheduled -
+* perl - Scheduled -
+* python - done - here
+* tclsh - In Progress -
+
+Our primary means of communication is via twitter on the handle @borderObserver
+https://twitter.com/borderObserver
+
+<h2>The Source Code</h2>
+
+All the source code is available via github. As such, if you are not familiar with github, you can
+
+* inspect any individial file
+* download the entire set of example in a compressed tarball (zip), or
+* if you join github, you can sync to the code and report issues with the code.
+
+<h2>SOURCES</h2>
+
+<big>The COVID Tracking Project</big>
+<small>https://covidtracking.com/</small>
+
+<big>MOST RECENT DATA</big>
+<small>https://covidtracking.com/data/</small>
+
+<big>Information about accessing the data via JSON or CSV</big>
+<small>https://covidtracking.com/api/</small>
+
+<big>covid19-tracking-examples</big>
+<small>https://github.com/jessemonroy650/covid19-tracking-examples</small>
+
+----------------------------------------------------------------
+
+
+https://edogfood.wordpress.com/
+
+----------------
+
