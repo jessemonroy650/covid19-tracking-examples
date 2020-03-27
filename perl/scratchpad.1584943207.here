@@ -1,0 +1,39 @@
+
+1584967390
+
+https://covidtracking.com/api/
+https://covidtracking.com/api/us
+https://covidtracking.com/api/us/daily
+
+JSON |
+  X  | us
+  X  | us-daily
+  X  | counties
+  X  | states
+  X  | states-daily
+  -  | states-info
+  -  | urls
+
+=========================
+
+ CSV |
+     | us
+     | us-daily
+     | counties
+     | states
+     | states-daily
+  -  | states-info
+
+----
+
+States current - /api/states
+States daily 4 pm ET - /api/states/daily
+States info - /api/states/info
+US current - /api/us
+US daily - /api/us/daily
+Counties- /api/counties
+
+Tracker URLs - /api/urls
+
+State Website Screenshots - /api/screenshots
+In the press - /api/press
