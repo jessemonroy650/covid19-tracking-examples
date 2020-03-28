@@ -6,5 +6,5 @@ Using the online database https://covidtracking.com/api/
 
 - python: done 2020-03-23
 - node: done 2020-03-24
-- perl: in progress
-- tclsh: in progress
+- perl: JSON done 2020-03-26
+- tclsh: JSON done 2020-03-28
